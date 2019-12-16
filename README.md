@@ -1,6 +1,6 @@
 Library based on assignment from [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/library?ref=lnav)
 
-[View](#)
+[View](https://jmorales2012.github.io/library/)
 
 To Do List
 * When user adds book, don't re-display everything, just that book

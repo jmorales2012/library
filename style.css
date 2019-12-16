@@ -18,7 +18,7 @@ h1 {
 
 .table-titles, .book, .input-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 40px 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 100px;
   grid-template-rows: auto;
   justify-items: center;
   align-items: center;
@@ -74,11 +74,10 @@ h1 {
   pointer-events: none;
 }
 
-/* .add-book-button {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding-top: 4px;
-} */
+.add-book {
+  width: 80px;
+  height: 20px;
+}
 
 .add-book:hover {
   cursor: pointer;

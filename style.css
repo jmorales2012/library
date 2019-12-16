@@ -1,0 +1,96 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table-titles, .book, .input-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 40px 40px;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.table-titles div {
+  padding: 0 20px;
+  border-bottom: 1px solid #aaa;
+}
+
+.table-titles p {
+  margin: 25px 0 5px 0;
+}
+
+.book {
+  margin-top: 10px;
+}
+
+.book p {
+  font-size: 12px;
+}
+
+.input-container {
+  margin-top: 10px;
+}
+
+.input-container input {
+  padding: 5px;
+  outline: none;
+  border: 1px solid #dfdfdf;
+}
+
+.input-container .required {
+  border: 1px solid #d54b52;
+}
+
+.input-container input:focus {
+  border: 1px solid #dfdfdf;
+}
+
+.delete-book:hover {
+  cursor: pointer;
+}
+
+.delete-book i {
+  color: #d54b52;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.delete-book i:hover {
+  color: #d54b52;
+  pointer-events: none;
+}
+
+/* .add-book-button {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-top: 4px;
+} */
+
+.add-book:hover {
+  cursor: pointer;
+}
+
+.add-book i {
+  color: #1da734;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.add-book i:hover {
+  color: #1da734;
+  pointer-events: none;
+}

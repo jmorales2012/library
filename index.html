@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Library</h1>
+    </header>
+    <div class="container">
+      <div class="table-titles">
+        <div class="title"><p>Title</p></div class='title'>
+        <div class="author"><p>Author</p></div>
+        <div class="pages"><p>Pages</p></div>
+        <div class="read"><p>Read</p></div>
+      </div>
+      <div class="book-container">
+        <div class="book">
+        </div>
+      </div>
+      <form class="input-container">
+        <input type="text" id="title" placeholder="Book Title" required>
+        <input type="text" id="author" placeholder="Book Author" required>
+        <input type="text" id="pages" placeholder="Book Pages" required>
+        <input type="text" id="read" placeholder="Book Read?" required>
+        <button type="submit" class="add-book">Add Book</button>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

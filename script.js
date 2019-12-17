@@ -31,13 +31,15 @@ function displayBooks() {
     
     let deleteBtn = document.createElement('button');
     deleteBtn.classList.add('delete-book');
+    deleteBtn.classList.add('fa');
+    deleteBtn.classList.add('fa-times');
     deleteBtn.setAttribute('data-id', book.id);
 
     title.innerText = book.title;
     author.innerText = book.author;
     pages.innerText = book.pages;
     read.innerText = book.read;
-    deleteBtn.innerText = 'x';
+    deleteBtn.innerText = '';
 
     newBook.appendChild(title);
     newBook.appendChild(author);

@@ -3,10 +3,7 @@ Library based on assignment from [The Odin Project](https://www.theodinproject.c
 [View](https://jmorales2012.github.io/library/)
 
 To Do List
-* When user adds book, don't re-display everything, just that book
-* Refactor displayBooks function if necessary
-* Allow user to add book
-* Allow user to delete book
+* Change read column to checkbox
 
 Wishlist
 * Let user click on book info to edit in place

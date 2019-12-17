@@ -63,7 +63,10 @@ function resetForm() {
 function validateInput() {
   let validated;
   inputs.forEach(input => {
-    validated = input.value !== '' ? true : false;
+    if (input.id !== 'read-status') {
+      // read-status checkbox can be left empty
+      validated = input.value !== '' ? true : false;
+    }
   });
   return validated;
 }
